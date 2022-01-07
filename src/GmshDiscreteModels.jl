@@ -15,7 +15,7 @@ function GmshDiscreteModel(mshfile; renumber = true)
   # Should information be printed on the terminal (if available)?
   # Default value: 0
   # Saved in: General.OptionsFileName
-  #gmsh.option.setNumber("General.Terminal", 1)
+  gmsh.option.setNumber("General.Terminal", 0)
 
   # Save all elements (Mesh.SaveAll)
   gmsh.option.setNumber("Mesh.SaveAll", 1)
